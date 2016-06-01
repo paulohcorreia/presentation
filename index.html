@@ -3,11 +3,16 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<!-- Title -->
 		<title>reveal.js</title>
 
+		<meta name="description" content="Resumo da V CBM | Apresentação no Consulado Brasileiro de Milão">
+		<meta name="author" content="Paulo Henrique Correia">
+
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +29,97 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown data-separator="^\n---\n$" data-separator-vertical="^\n--\n$">
+					<script type="text/template">
+						## Conselho dos Cidadãos
+						#### Consulado Geral do Brasil em Milão
+
+						--
+
+						## Associações Participantes
+
+						[Turim](wara.it) | Verona | [Genova]() | [Milão]()
+
+						[Padova]() | [Veneza]() | [Bolonha]() | [Trieste]()
+
+						---
+
+						## Slide 2
+
+
+					</script>
+				</section>
+				<section>
+					<h2>Associações Participantes</h2>
+
+					<div class="associations">
+						<table>
+							<tr>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b6.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b7.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b8.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b9.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+							</tr>
+							<tr>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Turim</td>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Verona</td>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Genova</td>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Milão</td>
+							</tr>
+							<tr>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b6.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b7.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b8.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+								<td style="border-collapse: collapse;border:1px solid blue;"><img src="/img/1f3b9.png" alt="" style="border-collapse: collapse;border:1px solid white;"/></td>
+							</tr>
+							<tr>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Turim</td>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Verona</td>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Genova</td>
+								<td style="border-collapse: collapse;border:1px solid blue; position:center;">Milão</td>
+							</tr>
+						</table>
+					</div>
+
+				</section>
+				<section>
+					<h1>Primeiro Dia</h1>
+					<p>Previdencia Social | Ministerio da Fazenda</p>
+					<p>Suas | MDS </p>
+				</section>
+				<section>
+					<h1>Segundo Dia</h1>
+					<p>CIES</p>
+					<p>Caixa Economica</p>
+					<p>Mesa de Investimentos</p>
+				</section>
+				<section>
+					<h1>Terceiro Dia</h1>
+					<p>Assuntos Consulares</p>
+					<p>Mesa Juridica</p>
+					<p>SEBRAE</p>
+					<p>SENAC</p>
+				</section>
+				<section>
+					<h1>Quarto Dia</h1>
+					<p>Cultura e Esporte</p>
+					<p>Educacao</p>
+				</section>
+				<section>
+					<h1>Quinto Dia</h1>
+					<p>Associativismo</p>
+					<p>Regime do CRBE</p>
+					<p>Estatuto</p>
+					<p>Entrega de Cargos e Eleições dos novos cargos</p>
+				</section>
+				<section>
+						<h2>Basement Level 2</h2>
+						<p>That's it, time to go back up.</p>
+						<br>
+						<a href="#/2">
+							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);">
+						</a>
+				</section>
 			</div>
 		</div>
 
@@ -36,6 +130,9 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+
+				// Display controls in the bottom right corner
+				controls: false,
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
