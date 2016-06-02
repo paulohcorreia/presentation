@@ -1329,3 +1329,13 @@ html:-moz-full-screen-ancestor {
 
 .zoomed .reveal .roll span:after {
   visibility: hidden; }
+
+/*********************************************
+ * CUSTOM
+*********************************************/
+
+.associations td {
+  width: 160px;
+  height: 95%;
+  border-collapse: collapse;
+  border:2px solid blue;" }
